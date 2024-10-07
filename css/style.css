@@ -1,0 +1,57 @@
+.animation {
+    height: 200px;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    animation-name: animate;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+}
+
+@keyframes animate {
+    0% {
+        background-color: #333;
+        left: 0%;
+
+    }
+
+    25% {
+        background-color: yellow;
+        left: 50%;
+    }
+
+    50% {
+        background-color: blue;
+        top: 300px;
+    }
+
+    75% {
+        background-color: green;
+        left: 50%;
+
+    }
+
+    100% {
+        background-color: red;
+        top: 300px;
+    }
+
+
+
+}
+
+
+/* using front and to keyword */
+
+/* @keyframes animate {
+    from {
+        background-color: #333;
+        left: 0;
+    }
+
+    to {
+        background-color: red;
+        left: 100%;
+    }
+} */
